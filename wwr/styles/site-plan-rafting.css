@@ -5,8 +5,8 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Oxygen:wght@300&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #004F88   ;
-  --secondary-color: #CFD11A ;
+  --primary-color: #004F88;
+  --secondary-color: #CFD11A;
   --accent1-color: #55a3b0;
   --accent2-color: #622F74;
 
