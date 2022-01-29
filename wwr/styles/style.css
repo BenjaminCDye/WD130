@@ -6,17 +6,17 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    background: color #622f74;
+    background-color: #622f74;
     color:#004f88;
 }
 main section {
     text-align: center;
 }
 body {
-    background: color #f6eada;
+    background-color: #f6eada;
 }
 header {
-    background: color #396e94;
+    background-color: #396e94;
 }
 footer {
     background-color:#396e94;
