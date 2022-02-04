@@ -1,0 +1,45 @@
+body {
+    background-color: #fca6c9;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading {
+color: white;
+text-align: center;
+}
+.heading:hover {
+color:black;
+}
+.education {
+color: white;
+text-align: center;
+font-weight: bold;
+}
+.articles {
+font-weight: bold;
+color: black;
+display: block;
+margin-left: 35%;
+}
+img {
+    width: 160px;
+    height: auto;
+    margin-left: 45%;
+}
+.quote {
+font-size: 35px;
+display: block;
+margin-left: 40%;
+height:auto;
+width: 300px;
+color: white;
+text-align: center;
+}
+footer {
+font-weight: bold;
+text-align: center;
+}
+.wrap {
+width: 235px;
+margin-left: 41.8%;
+font-size: 11px;
+}

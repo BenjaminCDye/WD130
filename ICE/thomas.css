@@ -1,0 +1,23 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+.background img {
+    min-width:100%;
+}
+.grey {
+    background-color:#737373;
+    text-align: center;
+}
+article {
+    display: inline-block;
+    margin: 50px;
+}
+section {
+    margin: -5px;
+}
+article img {
+    width: 250px;
+    border: 15px solid #444;
+    border-radius: 50%;
+}
