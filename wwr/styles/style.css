@@ -54,7 +54,7 @@ main section img {
     box-sizing: border-box;
 }
 /* class selector */
-.button.box {
+.button-box {
     text-align: center;
 }
 .book, .join {
