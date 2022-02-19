@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@500&family=Kaisei+Decol&family=Syne+Tactile&display=swap'); 
+/* html selector */
+body {
+    font-size: 25px;
+}
+/* Class Selector */
+/* id selector */
+
+/* colors */
+.color1 {
+    background-color: #114B5F;   /*Midnight Green Eagle Green*/
+}
+.color2 {
+    background-color: #028090;   /*Metallic Seaweed*/
+}
+.color3 {
+    background-color: #E4FDE1;   /*Nyanza*/
+}
+.color4 {
+    background-color: #456990;   /*Queen Blue*/
+}
+.color5 {
+    background-color: #F45B69;   /*Fiery Rose*/
+}
+.color6 {
+    background-color: #646536;   /*Antique Bronze*/
+}
+
+/* Fonts */
+.font1 {
+    font-family: 'Cinzel', serif;
+}
+.font2 {
+    font-family: 'Kaisei Decol', serif;
+}
+.font3 {
+    font-family: 'Syne Tactile', cursive;
+}
+.font4 {
+    font-family: 'Cinzel Decorative', cursive; /*make sure to have backup font if you use this one*/
+}
+
+
+
+
