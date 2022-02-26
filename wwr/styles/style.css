@@ -42,6 +42,7 @@ header {
     background-color: rgba(57,110,148, .7);
     display: grid;
     grid-template-columns: 150px auto;
+    padding: 5px;
 }
 
 h4 {
@@ -121,6 +122,11 @@ nav a:hover {
     grid-row: 2/3;
 }
 
+.details {
+    margin-left: 25px;
+    padding-left: 25px;
+}
+
 .home-title {
     color: #004f88;
     font-family: 'Rowdies', cursive;
@@ -184,6 +190,16 @@ nav a:hover {
     grid-row: 2/3;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .header {
+    padding-top: 102px;
+}
+
 /* id selectors */
 #background {
     height: 725px;
@@ -234,8 +250,11 @@ nav a:hover {
     align-self: center;
 }
 
-
-
+#rivers-heading {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
 
 
 
