@@ -1,0 +1,248 @@
+/* Section Elements */
+body {
+
+}
+header {
+
+}
+nav {
+
+}
+h1 {
+
+}
+a {
+
+}
+form {
+
+}
+video {
+
+}
+section {
+
+}
+h2 {
+
+}
+p {
+
+}
+main {
+
+}
+h3 {
+
+}
+button {
+
+}
+ul {
+
+}
+li {
+
+}
+footer {
+
+}
+
+
+/* Class Elements */
+.about-me {
+
+}
+
+.img-box {
+
+}
+
+.join-now {
+
+}
+
+.picture-why {
+
+}
+
+.post {
+
+}
+
+.post-browse {
+
+}
+
+.post-content {
+
+}
+
+.project-container {
+
+}
+
+.project-details {
+
+}
+
+.project-latest {
+
+}
+
+.progress-bar-current {
+
+}
+
+.progress-bar-total {
+
+}
+
+.search-container {
+
+}
+
+.story-box {
+
+}
+
+.story-section {
+
+}
+
+.summery {
+
+}
+
+.text-box {
+
+}
+
+.me-pic {
+
+}
+
+.video-content {
+
+}
+
+.video-info {
+
+}
+
+.video-vid {
+    
+}
+
+.video-why {
+
+}
+
+.write-reason {
+
+}
+
+/* Id Elements */
+#heading {
+
+}
+
+
+/* Slideshow Elements */
+{box-sizing:border-box}
+
+.Back, .forward {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    margin-top: -23px;
+    padding: 14px;
+    color: grey;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.4s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.Back:hover, .forward:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.collection {
+
+}
+
+.Containers {
+    display: none;
+}
+
+/*the little circles*/
+.dots {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 0 3px;
+    background-color: #acc;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.enable, .dots:hover {
+    background-color: #717161;
+  }
+
+.forward {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+  /* Faint animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.4s;
+    animation-name: fade;
+    animation-duration: 1.4s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+  }
+  
+  @keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+  }
+
+/* caption info */
+.Info {
+    color: #e3e3e3;
+    font-size: 16px;
+    padding: 10px 14px;
+    position: absolute;
+    bottom: -144px;
+    width: 100%;
+    text-align: center;
+}
+
+/*work numbering*/
+.MessageInfo {
+    color: #f2f2f3;
+    font-size: 14px;
+    padding: 10px 14px;
+    position: absolute;
+    top: 0;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.slideshow-img {
+    height: 500px;
+    width: auto;
+}
