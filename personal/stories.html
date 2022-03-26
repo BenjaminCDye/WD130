@@ -1,38 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Kaisei+Decol&family=Syne+Tactile&display=swap"
-        rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@500&family=Kaisei+Decol&display=swap"
+        rel="stylesheet"> -->
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/story.css">
     <title>Cryptic Archive - Stories</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <div class="top-flow">
             <h1>Cryptic Archive</h1>
-            <a href="index.html">Home</a>
-            <a href="stories.html">Stories</a>
-            <a href="photography.html">Photography</a>
-            <a href="#">Resume</a>
             <div class="search-container">
                 <form action="/action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
+                    <input type="text" placeholder="Search..." name="search">
                     <button type="submit">Submit</button>
                 </form>
             </div>
+        </div>
+        <nav>
+
+            <!-- <div class="dropdown"> -->
+            <!-- <button class="dropbtn">Pages</button> -->
+            <!-- <div class="dropdown-content"> -->
+            <a class="nav-1" href="index.html">Home</a>
+            <a class="nav-2" href="stories.html">Stories</a>
+            <a class="nav-3" href="photography.html">Photography</a>
+            <a class="nav-4" href="resume.html" target="_blank">Resume</a>
+
         </nav>
         <div id="heading">
             <video autoplay muted>
                 <!-- for user controls, add: controls="controls" -->
-                <source src="video/cryptic_blue.mp4" type="video/mp4">
+                <source src="video/copy_of_cryptic_blue.mp4" type="video/mp4">
             </video>
             <section>
                 <h2>Story Page</h2>
@@ -47,69 +55,131 @@
             <section class="story-section">
                 <div class="story-grid">
                     <h3 class="story-head">My Stories</h3>
+
                     <div class="story-box-1">
                         <div class="img-box-1">
-                            <div class="progress-bar-total-1"></div>
-                            <div class="progress-bar-current-1"></div>
-                            <img src="images/Book Covers/Animaus - Taste of Blood - Colorized.png">
+                            <img src="images/Book-Covers/Animaus_Taste_of_Blood_Colorized.png" alt="book-cover">
+                            <div class="bar-container">
+                                <div class="progress-bar">
+                                    <div class="progress-current bar-1">10%</div>
+                                </div>
+                            </div>
                             <h4>Animaus - Taste of Blood</h4>
                         </div>
                         <h5>Synopsis</h5>
                         <div class="text-box">
-                            <p>
-                                Short Summery Here - Make it a scrollable box
+                            <p class="scrollable">
+                                Short Summery Here - Make it a scrollable box. <br> Lorem ipsum dolor sit amet,
+                                consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                         </div>
-                        <button><a href="#">Read Now</a></button>
+                        <a class="button" href="#">Read Now</a>
                     </div>
+
                     <div class="story-box-2">
                         <div class="img-box-2">
-                            <div class="progress-bar-total-2"></div>
-                            <div class="progress-bar-current-2"></div>
-                            <img src="images/Book Covers/Animaus - Mask of The Dead - Colorized.png">
+                            <img src="images/Book-Covers/Animaus_Mask_of_The_Dead_Colorized.png" alt="book-cover">
+                            <div class="bar-container">
+                                <div class="progress-bar">
+                                    <div class="progress-current bar-2">11%</div>
+                                </div>
+                            </div>
                             <h4>Animaus - Mask of The Dead</h4>
                         </div>
                         <h5>Synopsis</h5>
                         <div class="text-box">
-                            <p>
-                                Short Summery Here - Make it a scrollable box
+                            <p class="scrollable">
+                                Short Summery Here - Make it a scrollable box. <br> Lorem ipsum dolor sit amet,
+                                consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                         </div>
-                        <button><a href="#">Read Now</a></button>
+                        <a class="button" href="#">Read Now</a>
                     </div>
                     <div class="story-box-3">
                         <div class="img-box-3">
-                            <div class="progress-bar-total-3"></div>
-                            <div class="progress-bar-current-3"></div>
-                            <img src="images/Book Covers/Animaus - Eternatree - Colorized.png">
+                            <img src="images/Book-Covers/Animaus_Eternatree_Colorized.png" alt="book-cover">
+                            <div class="bar-container">
+                                <div class="progress-bar">
+                                    <div class="progress-current bar-3">12%</div>
+                                </div>
+                            </div>
                             <h4>Animaus - Eternatree</h4>
                         </div>
                         <h5>Synopsis</h5>
                         <div class="text-box">
-                            <p>
-                                Short Summery Here - Make it a scrollable box
+                            <p class="scrollable">
+                                Short Summery Here - Make it a scrollable box. <br> Lorem ipsum dolor sit amet,
+                                consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                         </div>
-                        <button><a href="#">Read Now</a></button>
+                        <a class="button" href="#">Read Now</a>
                     </div>
                     <div class="story-box-4">
                         <div class="img-box-4">
-                            <div class="progress-bar-total-4"></div>
-                            <div class="progress-bar-current-4"></div>
-                            <img src="images/Book Covers/Mynthas - The Unclaimed Throne - Colorized.png">
+                            <img src="images/Book-Covers/Mynthas_The_Unclaimed_Throne_Colorized.png" alt="book-cover">
+                            <div class="bar-container">
+                                <div class="progress-bar">
+                                    <div class="progress-current bar-4">13%</div>
+                                </div>
+                            </div>
                             <h4>Mynthas - The Unclaimed Throne</h4>
                         </div>
                         <h5>Synopsis</h5>
                         <div class="text-box">
-                            <p>
-                                Short Summery Here - Make it a scrollable box
+                            <p class="scrollable">
+                                Short Summery Here - Make it a scrollable box. <br> Lorem ipsum dolor sit amet,
+                                consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                         </div>
-                        <button><a href="#">Read Now</a></button>
+                        <a class="button" href="#">Read Now</a>
                     </div>
                 </div>
             </section>
-
+            <hr class="line">
             <section class="write-reason">
                 <h2>Why do I write?</h2>
                 <p>I like to write because it gives me an escape, a way to express myself, my feelings and identity. It
@@ -117,35 +187,40 @@
                     through my characters that I learn who I am. Through my stories, I can make sense of my feelings and
                     anxieties. And with these stories, I can overcome them.</p>
             </section>
-
-            <section class="join-now">
-                <h2>How can you be a part of it?</h2>
+            <hr class="line">
+            <section class="join-now write-reason">
+                <h2>How can you be involved?</h2>
                 <p>You can send a message down below to provide commentary, to reach out to me regarding a work
                     position, or
                     even if you just have a question.</p>
                 <br>
                 <p>I hope you will take a look around and see the works of art that I have made.</p>
 
-                <div id="feedback"></div>
-                <form>
-                    <ul>
-                        <li>
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="user_name">
-                        </li>
-                        <li>
-                            <label for="mail">E-mail:</label>
-                            <input type="email" id="mail" name="user_email">
-                        </li>
-                        <li>
-                            <label for="msg">Message:</label>
-                            <textarea id="msg" name="user_message"></textarea>
-                        </li>
-                        <li class="button">
-                            <button type="submit">Send Your Message</button>
-                        </li>
-                    </ul>
-                </form>
+                <div class="container">
+                    <form action="action_page.php" autocomplete="on" target="_blank">
+
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="united_states_of_america">United States of America</option>
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="mexico">Mexico</option>
+                        </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
             </section>
         </div>
     </main>
@@ -161,6 +236,7 @@
                 <img src="images/facebook.png" alt="facebook icon">
             </a>
         </div>
+        <p>&copy;Benjamin Dye 2022</p>
     </footer>
     <script src="scripts/form.js"></script>
 </body>

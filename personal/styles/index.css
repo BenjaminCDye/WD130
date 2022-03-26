@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@500&family=Kaisei+Decol&family=Syne+Tactile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@500&family=Kaisei+Decol&display=swap');
 /* Section Elements */
 body {
   margin: 0;
   font-family: 'Kaisei Decol', serif;
+  color: lightgray;
+  text-shadow: black .8px .8px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10,25 +12,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
+  background-color: #114B5F;
+  margin-top: -20px;
+  font-family: 'Cinzel', serif;
+}
 
+header input {
+  width: 30%;
 }
 
 nav {
   display: grid;
-  grid-template-columns: 1fr 13% 13% 13% 13% 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   /* display: flex; */
   /* justify-content: center; */
   align-items: center;
-  background-color: #114B5F;
-  color: #028090;
+  /* color: #028090; */
+  color: white;
   font-size: 120%;
   text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 nav a {
   padding: 10px 15px;
   font-weight: bold;
   border-radius: 50%;
+  
 }
 
 nav a:hover {
@@ -44,7 +55,20 @@ nav a:link, nav a:visited {
 
 nav h1 {
   font-size: 180%;
+  /* grid-column: 1/2; */
+  text-align:left;
+  margin-left: 5%;
 }
+
+.nav-1 {
+ /* grid-column: 2/3; */
+}
+
+.nav-2 {
+  /* grid-column: 3/4 ; */
+}
+
+
 a {
 
 }
@@ -52,7 +76,7 @@ form {
 
 }
 video {
-
+  /* width: 20%; */
 }
 section {
 
@@ -80,17 +104,25 @@ li {
 
 }
 footer {
-  /* background-color: #114B5F; */
-  display: grid;
-  grid-template-columns: 1fr 13% 13% 13% 13% 1fr;
+  background-color: #114B5F;
+  /* display: grid;  */
+  /* grid-template-columns: 1fr 13% 13% 13% 13% 1fr; */
   /* display: flex; */
   /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: #114B5F; */
+  /* color: #028090; */
+  /* font-size: 120%; */
+  /* text-align: center; */
+  height: 100px; 
+  margin-top: -20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: 100px 100px; */
   align-items: center;
-  background-color: #114B5F;
-  color: #028090;
+  color: white;
   font-size: 120%;
   text-align: center;
-  height: 100px;
 }
 
 footer a {
@@ -110,6 +142,56 @@ footer a:link, nav a:visited {
 }
 
 /* Class Elements */
+
+
+/* Nav Dropdown */
+/* Dropdown Button */
+/* .dropbtn {
+  background-color: #028090;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: 2px black ridge;
+} */
+
+/* The container <div> - needed to position the dropdown content */
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+  grid-column: 5/6;
+} */
+
+/* Dropdown Content (Hidden by Default) */
+/* .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #114B5F;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+} */
+
+/* Links inside the dropdown */
+/* .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} */
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+* {box-sizing:border-box}
+
+
 .about-me {
   display: flex;
   margin-top: 25px;
@@ -138,14 +220,29 @@ footer a:link, nav a:visited {
   
 }
 
-.join-now {
+.button {
+  background-color: #038092;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+}
 
+.line {
+  width: 80%;
+  height: 5px;
+  color: white;
+  background-color: black;
+  margin-top: 8px;
 }
 
 .main-background {
   background-color: #456990;
   /* margin-top: -20px; */
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .me-pic {
@@ -242,70 +339,8 @@ footer a:link, nav a:visited {
   width: 100%;
 }
 
-.story-grid {
-  display: grid;
-  grid-template-columns:1fr 1fr 1fr 1fr 100px 1fr 1fr 1fr 1fr;
-  grid-template-rows: 65px 400px 450px 400px 450px;
-}
-
-.story-head {
-  grid-column: 4/7;
-}
-
-.progress-bar-current-1 {
-
-}
-
-.progress-bar-total-1 {
-
-}
-
-.story-box-1 {
-  grid-column: 1/5;
-}
-
-.story-box-2 {
-  grid-column: 6/10;
-}
-
-.story-box-3 {
-  grid-column: 1/5;
-  grid-row: 4/6;
-}
-
-.story-box-4 {
-  grid-column: 6/10;
-  grid-row: 4/6;
-}
-
-.img-box-1 {
-  grid-row: 2/3;
-}
-
-.img-box-2 {
-  grid-row: 2/3;
-}
-
-.story-section {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.story-section h3 {
-  text-align: center;
-  font-size: 25px;
-}
-
-.story-section img {
-  width: 100%;
-  height: 100%;
-  border: 8px #028090 ridge;
-  border-radius: 15%;
-  /* padding: 5px; */
-}
-
-.story-section h4, h5 {
-  text-align: center;
+.search-container {
+  grid-column: 6/7;
 }
 
 .summery {
@@ -318,9 +353,17 @@ footer a:link, nav a:visited {
   text-align: left;
 }
 
-.search-container {
-
+.top-flow { 
+  /* margin-left: 45%; */
+  text-align: center;
 }
+
+.top-flow h1 { 
+  /* margin-left: 25px; */
+  text-decoration: underline;
+  padding-top: 10px;
+}
+
 
 .video-content {
 
@@ -338,21 +381,17 @@ footer a:link, nav a:visited {
 
 }
 
-.write-reason {
-
-}
-
 /* Id Elements */
 #heading {
   background-color: #038092;
   width: 100%;
-  height: 350px;
+  /* height: 350px; */
   display: flex;
 
 }
 #heading video {
-  /* width: 90%; */
-  height: 90%;
+  width: 25%;
+  /* height: 90%; */
   /* align-self: left; */
 }
 #heading section {
@@ -368,7 +407,7 @@ footer a:link, nav a:visited {
 
 
 /* Slideshow Elements */
-{box-sizing:border-box}
+/* {box-sizing:border-box} */
 
 .Back, .forward {
     cursor: pointer;
@@ -418,21 +457,21 @@ footer a:link, nav a:visited {
 }
 
   /* Faint animation */
-  .fade {
+.fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.4s;
     animation-name: fade;
     animation-duration: 1.4s;
-  }
-  @-webkit-keyframes fade {
+}
+@-webkit-keyframes fade {
     from {opacity: .5}
     to {opacity: 2}
-  }
+}
   
-  @keyframes fade {
+@keyframes fade {
     from {opacity: .5}
     to {opacity: 2}
-  }
+}
 
 /* caption info */
 .Info {

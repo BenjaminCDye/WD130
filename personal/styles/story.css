@@ -1,0 +1,166 @@
+.story-grid {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 100px 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 65px 400px 450px 400px 450px; */
+  }
+  
+  .story-head {
+    grid-column: 4/7;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 40px;
+  }
+  
+  .bar-1 {
+    width: 10%;
+    background-color: #04AA6D;
+    border-radius: 50px;
+  }
+  
+  .bar-2 {
+    width: 11%;
+    background-color: #04AA6D;
+    border-radius: 50px;
+  }
+  
+  .bar-3 {
+    width: 12%;
+    background-color: #04AA6D;
+    border-radius: 50px;
+  }
+  
+  .bar-4 {
+    width: 13%;
+    background-color: #04AA6D;
+    border-radius: 50px;
+  }
+  
+  /* .bar-container {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 70%;
+  } */
+  
+  .progress-current {
+    text-align: right; /* Right-align text */
+    padding-top: 2px; /* Add top padding */
+    padding-bottom: 2px; /* Add bottom padding */
+    color: black; /* White text color */
+    font-size: 13px;
+    /* border-radius: 50%; */
+  }
+  
+  
+  
+  .story-box-1 {
+    grid-column: 1/5;
+  }
+  
+  .story-box-2 {
+    grid-column: 6/10;
+  }
+  
+  .story-box-3 {
+    grid-column: 1/5;
+    grid-row: 4/6;
+  }
+  
+  .story-box-4 {
+    grid-column: 6/10;
+    grid-row: 4/6;
+  }
+  
+  .img-box-1 {
+    grid-row: 2/3;
+  }
+  
+  .img-box-2 {
+    grid-row: 2/3;
+  }
+  
+  .story-section {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .scrollable {
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 200px;
+  }
+  
+.story-section h3 {
+    text-align: center;
+    font-size: 25px;
+}
+  
+.story-section img {
+    width: 100%;
+    height: 100%;
+    border: 8px #028090 ridge;
+    border-radius: 15%;
+    /* padding: 5px; */
+}
+  
+.story-section h4, h5 {
+    text-align: center;
+}
+
+.write-reason {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.write-reason h2 {
+    font-weight: bold;
+}
+
+.write-reason p {
+    margin-left: 25px;
+}
+
+.join-now {
+    margin-top: 25px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+.container input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+  
+  /* Style the submit button with a specific background color etc */
+.container input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+.container input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+  /* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.container label {
+      color: black;
+}

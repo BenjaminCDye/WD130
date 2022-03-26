@@ -1,38 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Kaisei+Decol&family=Syne+Tactile&display=swap"
-        rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@500&family=Kaisei+Decol&display=swap"
+        rel="stylesheet"> -->
     <link rel="stylesheet" href="styles/index.css">
     <title>Cryptic Archive - Photography</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <div class="top-flow">
             <h1>Cryptic Archive</h1>
-            <a href="index.html">Home</a>
-            <a href="stories.html">Stories</a>
-            <a href="photography.html">Photography</a>
-            <a href="#">Resume</a>
             <div class="search-container">
                 <form action="/action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
+                    <input type="text" placeholder="Search..." name="search">
                     <button type="submit">Submit</button>
                 </form>
             </div>
+        </div>
+        <nav>
+
+            <!-- <div class="dropdown"> -->
+            <!-- <button class="dropbtn">Pages</button> -->
+            <!-- <div class="dropdown-content"> -->
+            <a class="nav-1" href="index.html">Home</a>
+            <a class="nav-2" href="stories.html">Stories</a>
+            <a class="nav-3" href="photography.html">Photography</a>
+            <a class="nav-4" href="resume.html" target="_blank">Resume</a>
+
         </nav>
         <div id="heading">
             <video autoplay muted>
                 <!-- for user controls, add: controls="controls" -->
-                <source src="video/cryptic_blue.mp4" type="video/mp4">
+                <source src="video/copy_of_cryptic_blue.mp4" type="video/mp4">
             </video>
             <section>
                 <h2>Photography Page</h2>
@@ -164,6 +171,7 @@
                 <img src="images/facebook.png" alt="facebook icon">
             </a>
         </div>
+        <p>&copy;Benjamin Dye 2022</p>
     </footer>
     <script src="scripts/slideshow.js"></script>
 </body>

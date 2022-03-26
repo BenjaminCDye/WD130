@@ -1,39 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Kaisei+Decol&family=Syne+Tactile&display=swap"
-        rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@500&family=Kaisei+Decol&display=swap"
+        rel="stylesheet"> -->
     <link rel="stylesheet" href="styles/index.css">
     <title>Cryptic Archive - Home</title>
 </head>
 
 <body>
     <header>
-
-        <nav>
+        <div class="top-flow">
             <h1>Cryptic Archive</h1>
-            <a href="index.html">Home</a>
-            <a href="stories.html">Stories</a>
-            <a href="photography.html">Photography</a>
-            <a href="#">Resume</a>
             <div class="search-container">
                 <form action="/action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
+                    <input type="text" placeholder="Search..." name="search">
                     <button type="submit">Submit</button>
                 </form>
             </div>
+        </div>
+        <nav>
+
+            <!-- <div class="dropdown"> -->
+            <!-- <button class="dropbtn">Pages</button> -->
+            <!-- <div class="dropdown-content"> -->
+            <a class="nav-1" href="index.html">Home</a>
+            <a class="nav-2" href="stories.html">Stories</a>
+            <a class="nav-3" href="photography.html">Photography</a>
+            <a class="nav-4" href="resume.html" target="_blank">Resume</a>
+
         </nav>
         <div id="heading">
             <video autoplay muted>
                 <!-- for user controls, add: controls="controls" -->
-                <source src="video/cryptic_blue.mp4" type="video/mp4">
+                <source src="video/copy_of_cryptic_blue.mp4" type="video/mp4">
             </video>
             <section>
                 <h2>Home Page</h2>
@@ -49,7 +55,7 @@
 
     <main>
         <div class="main-background">
-            <section class="me-pic">
+            <div class="me-pic">
                 <div class="me-pic-big">
                     <p>Big Picture</p>
                     <!-- <img src="images/temple.jpg"> -->
@@ -62,9 +68,9 @@
                     <p>Small Picture 2</p>
                     <!--<a href="https://placeholder.com"><img src="https://via.placeholder.com/175"></a>-->
                 </div>
-            </section>
+            </div>
 
-            <section class="about-me">
+            <div class="about-me">
                 <div class="about-me-pic">
                     <!-- <p>picture of me</p> -->
                     <img src="images/BenProfilePicture.jpg" alt="Profile Picture of Me">
@@ -79,12 +85,12 @@
                         </p>
                     </div>
                 </div>
-            </section>
+            </div>
 
             <section class="post-browse">
                 <h2>What you can find here</h2>
                 <div class="post">
-                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/220"></a>
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/220" alt="placeholder"></a>
                     <div class="post-content">
                         <h3>My written works and stories. Both finished, and in progress.</h3>
                         <p class="summery">I like to write a lot, and over the years I have created plenty of stories
@@ -92,11 +98,11 @@
                             lot of content. Some of it has been finished, some of my projects are still works in
                             progress.
                         </p>
-                        <button><a href="stories.html">Go Now</a></button>
+                        <a class="button" href="stories.html">Go Now</a>
                     </div>
                 </div>
                 <div class="post">
-                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/220"></a>
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/220" alt="placeholder"></a>
                     <div class="post-content">
                         <h3>My photography and video</h3>
                         <p class="summery">I try to capture the beauty in the moments. Here, you can browse through
@@ -104,16 +110,16 @@
                             that I have taken and videos I have made, and notice that I have an excellent eye for Beauty
                             and
                             Creativity.</p>
-                        <button><a href="photography.html">Go Now</a></button>
+                        <a class="button" href="photography.html">Go Now</a>
                     </div>
                 </div>
                 <div class="post">
-                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/220"></a>
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/220" alt="placeholder"></a>
                     <div class="post-content">
                         <h3>My resume and other qualifications</h3>
                         <p class="summery">As you further consider my work, I have my resume avalible for you to see.
                         </p>
-                        <button><a href="#">Go Now</a></button>
+                        <a class="button" href="#">Go Now</a>
                     </div>
                 </div>
                 <!-- <button><a href="#">Browse all Posts</a></button> -->
@@ -121,10 +127,10 @@
             <div class="project-b">
                 <h2>Here are some of my Highlights</h2>
             </div>
-            <section class="project-highlight">
+            <div class="project-highlight">
                 <div class="project-container">
                     <div class="project-details">
-                        <img src="images/canyon.jpg">
+                        <img src="images/canyon.jpg" alt="canyon">
                         <ul>
                             <li>Details about Picture</li>
                             <li>Location</li>
@@ -136,7 +142,7 @@
                 </div>
                 <div class="project-container">
                     <div class="project-details">
-                        <img src="images/lake.jpg">
+                        <img src="images/lake.jpg" alt="lake">
                         <ul>
                             <li>Details about Picture</li>
                             <li>Location</li>
@@ -148,7 +154,7 @@
                 </div>
                 <div class="project-container">
                     <div class="project-details">
-                        <img src="images/temple.jpg">
+                        <img src="images/temple.jpg" alt="temple">
                         <ul>
                             <li>Details about Picture</li>
                             <li>Location</li>
@@ -158,7 +164,7 @@
                         </ul>
                     </div>
                 </div>
-            </section>
+            </div>
 
         </div>
     </main>
@@ -174,6 +180,7 @@
                 <img src="images/facebook.png" alt="facebook icon">
             </a>
         </div>
+        <p>&copy;Benjamin Dye 2022</p>
     </footer>
 </body>
 
