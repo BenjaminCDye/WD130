@@ -484,6 +484,10 @@ footer a:link, nav a:visited {
   margin-left: 10%;
 }
 
+.video-why video {
+  border: 10px #114B5F ridge;
+}
+
 .text-box-why {
   width: 40%;
   margin: 0 auto;
