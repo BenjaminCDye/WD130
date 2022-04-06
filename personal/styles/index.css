@@ -195,6 +195,7 @@ footer a:link, nav a:visited {
 .about-me {
   display: flex;
   margin-top: 25px;
+  padding-bottom: 15px;
   /* justify-content: center; */
   /* flex-wrap: wrap-reverse; */
 }
@@ -221,7 +222,7 @@ footer a:link, nav a:visited {
 }
 
 .button {
-  background-color: #038092;
+  background-color: #0A6679;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -294,6 +295,10 @@ footer a:link, nav a:visited {
   height: 100%;
 }
 
+ .placeholder {
+   display: none;
+ }
+
 .picture-why {
   display: flex;
   margin-top: 10px;
@@ -319,17 +324,23 @@ footer a:link, nav a:visited {
 .post {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 25%;
+  /* background-color:#038092; */
 }
 
 .post-browse {
-  margin-left: 15%;
+  /* margin-left: 25%; */
+  /* text-align: center; */
+  background-color: #0a6678;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .post-browse h3 {
   color: #114B5F;
   text-shadow: .5px .5px black;
   font-size: 20px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .post-browse h2 {
@@ -343,6 +354,7 @@ footer a:link, nav a:visited {
   border: 5px black groove;
   margin-top: 5px;
   margin-bottom: 5px;
+  background-color:#038092;
 }
 
 .project-b {
